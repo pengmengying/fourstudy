@@ -1,0 +1,113 @@
+{
+  "uid" : "e62e2939d252f48c",
+  "name" : "test_login01[验证码为空]",
+  "fullName" : "tset_case1028.Test_redis#test_login01",
+  "historyId" : "8114bc2e6b666122cd30e6331eb996bc",
+  "time" : {
+    "start" : 1635420822734,
+    "stop" : 1635420822767,
+    "duration" : 33
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1635420822475,
+      "stop" : 1635420822588,
+      "duration" : 113
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "xunit_setup_class_fixture_Test_redis",
+    "time" : {
+      "start" : 1635420822588,
+      "stop" : 1635420822588,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_Test_redis::0",
+    "time" : {
+      "start" : 1635420822986,
+      "stop" : 1635420822986,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "tset_case1028"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_redis"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-R24JI000"
+  }, {
+    "name" : "thread",
+    "value" : "59952-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tset_case1028"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "except1",
+    "value" : "'验证码无效'"
+  }, {
+    "name" : "phonenum",
+    "value" : "'19939990140'"
+  }, {
+    "name" : "userPassword",
+    "value" : "'123'"
+  }, {
+    "name" : "userPassword2",
+    "value" : "'123'"
+  }, {
+    "name" : "verifycode",
+    "value" : "''"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e62e2939d252f48c.json",
+  "parameterValues" : [ "'验证码无效'", "'19939990140'", "'123'", "'123'", "''" ]
+}

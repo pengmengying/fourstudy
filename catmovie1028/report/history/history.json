@@ -1,0 +1,120 @@
+{
+  "77b3668f61790f6221c1058514a8e5f9" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "95ce45fbdc7f61a3",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '用户名已经被占用' == '操作成功'\n  - 操作成功\n  + 用户名已经被占用",
+      "time" : {
+        "start" : 1635420822589,
+        "stop" : 1635420822642,
+        "duration" : 53
+      }
+    } ]
+  },
+  "69adb28f0b898eec06c874683963d4a2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2301b37ce829b2a6",
+      "status" : "broken",
+      "statusDetails" : "IndexError: Cannot choose from an empty sequence",
+      "time" : {
+        "start" : 1635420822775,
+        "stop" : 1635420822971,
+        "duration" : 196
+      }
+    } ]
+  },
+  "820b226cbe68dddd2c44a1435f9d76b7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b693cf7ce1f2614f",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 跳过",
+      "time" : {
+        "start" : 1635420822773,
+        "stop" : 1635420822773,
+        "duration" : 0
+      }
+    } ]
+  },
+  "8114bc2e6b666122cd30e6331eb996bc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e62e2939d252f48c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1635420822734,
+        "stop" : 1635420822767,
+        "duration" : 33
+      }
+    } ]
+  },
+  "bf49f6b86d0d0abcfdfde643322c293f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "410f7f58ebd190cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1635420822700,
+        "stop" : 1635420822729,
+        "duration" : 29
+      }
+    } ]
+  },
+  "945d7ef64b553d7e6b6fb4028e20a888" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a0591110b2dc44e8",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 跳过",
+      "time" : {
+        "start" : 1635420822771,
+        "stop" : 1635420822771,
+        "duration" : 0
+      }
+    } ]
+  }
+}

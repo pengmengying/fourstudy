@@ -1,0 +1,103 @@
+{
+  "uid" : "b693cf7ce1f2614f",
+  "name" : "test_buyseat",
+  "fullName" : "tset_case1028.Test_redis#test_buyseat",
+  "historyId" : "820b226cbe68dddd2c44a1435f9d76b7",
+  "time" : {
+    "start" : 1635420822773,
+    "stop" : 1635420822773,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Skipped: 跳过",
+  "statusTrace" : "('D:\\\\study\\\\threestudy\\\\fourstudy\\\\catmovie1028\\\\tset_case1028.py', 62, 'Skipped: 跳过')",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1635420822475,
+      "stop" : 1635420822588,
+      "duration" : 113
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "xunit_setup_class_fixture_Test_redis",
+    "time" : {
+      "start" : 1635420822588,
+      "stop" : 1635420822588,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_Test_redis::0",
+    "time" : {
+      "start" : 1635420822986,
+      "stop" : 1635420822986,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.skip(reason='跳过')"
+  }, {
+    "name" : "suite",
+    "value" : "tset_case1028"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_redis"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-R24JI000"
+  }, {
+    "name" : "thread",
+    "value" : "59952-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tset_case1028"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.skip(reason='跳过')" ]
+  },
+  "source" : "b693cf7ce1f2614f.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,47 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert '用户名已经被占用' == '操作成功'\n  - 操作成功\n  + 用户名已经被占用",
+      "children" : [ {
+        "name" : "test_login01[注册成功]",
+        "uid" : "95ce45fbdc7f61a3",
+        "parentUid" : "143666841133bf3fa94caa1dbab36b5f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1635420822589,
+          "stop" : 1635420822642,
+          "duration" : 53
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'操作成功'", "'19937770142'", "'123'", "'123'", "'rediscode'" ]
+      } ],
+      "uid" : "143666841133bf3fa94caa1dbab36b5f"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "IndexError: Cannot choose from an empty sequence",
+      "children" : [ {
+        "name" : "test_order[下订单成功]",
+        "uid" : "2301b37ce829b2a6",
+        "parentUid" : "f679deb1c05624ad3afa75fff7bf8485",
+        "status" : "broken",
+        "time" : {
+          "start" : 1635420822775,
+          "stop" : 1635420822971,
+          "duration" : 196
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "['17839926250']" ]
+      } ],
+      "uid" : "f679deb1c05624ad3afa75fff7bf8485"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

@@ -1,0 +1,83 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "test_login01[注册成功]",
+    "uid" : "95ce45fbdc7f61a3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1635420822589,
+      "stop" : 1635420822642,
+      "duration" : 53
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'操作成功'", "'19937770142'", "'123'", "'123'", "'rediscode'" ]
+  }, {
+    "name" : "test_login01[验证码错误]",
+    "uid" : "410f7f58ebd190cc",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1635420822700,
+      "stop" : 1635420822729,
+      "duration" : 29
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'验证码无效'", "'19939990140'", "'123'", "'123'", "'1234'" ]
+  }, {
+    "name" : "test_login01[验证码为空]",
+    "uid" : "e62e2939d252f48c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1635420822734,
+      "stop" : 1635420822767,
+      "duration" : 33
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'验证码无效'", "'19939990140'", "'123'", "'123'", "''" ]
+  }, {
+    "name" : "test_buycienma",
+    "uid" : "a0591110b2dc44e8",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1635420822771,
+      "stop" : 1635420822771,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_buyseat",
+    "uid" : "b693cf7ce1f2614f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1635420822773,
+      "stop" : 1635420822773,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_order[下订单成功]",
+    "uid" : "2301b37ce829b2a6",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1635420822775,
+      "stop" : 1635420822971,
+      "duration" : 196
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "['17839926250']" ]
+  } ]
+}

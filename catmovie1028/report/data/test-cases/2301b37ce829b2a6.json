@@ -1,0 +1,107 @@
+{
+  "uid" : "2301b37ce829b2a6",
+  "name" : "test_order[下订单成功]",
+  "fullName" : "tset_case1028.Test_redis#test_order",
+  "historyId" : "69adb28f0b898eec06c874683963d4a2",
+  "time" : {
+    "start" : 1635420822775,
+    "stop" : 1635420822971,
+    "duration" : 196
+  },
+  "status" : "broken",
+  "statusMessage" : "IndexError: Cannot choose from an empty sequence",
+  "statusTrace" : "self = <catmovie1028.tset_case1028.Test_redis object at 0x047CD250>\nusername = ['17839926250']\n\n    @pytest.mark.parametrize(\"username\",readcsv(csvpath+'/username.csv'),ids=[\"下订单成功\"])\n    def test_order(self,username): #确认选座接口\n        hallMovieId=self.hallMovieId(username[0])\n>       seatid=self.seatid(username[0])\n\ntset_case1028.py:119: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\ntset_case1028.py:90: in seatid\n    return random.choice(seatIdlist)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <random.Random object at 0x00BDDFF8>, seq = []\n\n    def choice(self, seq):\n        \"\"\"Choose a random element from a non-empty sequence.\"\"\"\n        try:\n            i = self._randbelow(len(seq))\n        except ValueError:\n>           raise IndexError('Cannot choose from an empty sequence') from None\nE           IndexError: Cannot choose from an empty sequence\n\nC:\\Users\\24531\\AppData\\Local\\Programs\\Python\\Python37-32\\lib\\random.py:261: IndexError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1635420822475,
+      "stop" : 1635420822588,
+      "duration" : 113
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "xunit_setup_class_fixture_Test_redis",
+    "time" : {
+      "start" : 1635420822588,
+      "stop" : 1635420822588,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_Test_redis::0",
+    "time" : {
+      "start" : 1635420822986,
+      "stop" : 1635420822986,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "tset_case1028"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_redis"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-R24JI000"
+  }, {
+    "name" : "thread",
+    "value" : "59952-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tset_case1028"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "username",
+    "value" : "['17839926250']"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "2301b37ce829b2a6.json",
+  "parameterValues" : [ "['17839926250']" ]
+}

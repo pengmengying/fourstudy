@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Thu Oct 28 19:33:42 CST 2021","Thu Oct 28 19:33:42 CST 2021","196","","tset_case1028","Test_redis","","","test_order[下订单成功]",""
+"skipped","Thu Oct 28 19:33:42 CST 2021","Thu Oct 28 19:33:42 CST 2021","0","","tset_case1028","Test_redis","","","test_buyseat",""
+"skipped","Thu Oct 28 19:33:42 CST 2021","Thu Oct 28 19:33:42 CST 2021","0","","tset_case1028","Test_redis","","","test_buycienma",""
+"failed","Thu Oct 28 19:33:42 CST 2021","Thu Oct 28 19:33:42 CST 2021","53","","tset_case1028","Test_redis","","","test_login01[注册成功]",""
+"passed","Thu Oct 28 19:33:42 CST 2021","Thu Oct 28 19:33:42 CST 2021","29","","tset_case1028","Test_redis","","","test_login01[验证码错误]",""
+"passed","Thu Oct 28 19:33:42 CST 2021","Thu Oct 28 19:33:42 CST 2021","33","","tset_case1028","Test_redis","","","test_login01[验证码为空]",""

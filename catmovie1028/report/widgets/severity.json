@@ -1,0 +1,61 @@
+[ {
+  "uid" : "2301b37ce829b2a6",
+  "name" : "test_order[下订单成功]",
+  "time" : {
+    "start" : 1635420822775,
+    "stop" : 1635420822971,
+    "duration" : 196
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a0591110b2dc44e8",
+  "name" : "test_buycienma",
+  "time" : {
+    "start" : 1635420822771,
+    "stop" : 1635420822771,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "b693cf7ce1f2614f",
+  "name" : "test_buyseat",
+  "time" : {
+    "start" : 1635420822773,
+    "stop" : 1635420822773,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "410f7f58ebd190cc",
+  "name" : "test_login01[验证码错误]",
+  "time" : {
+    "start" : 1635420822700,
+    "stop" : 1635420822729,
+    "duration" : 29
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "95ce45fbdc7f61a3",
+  "name" : "test_login01[注册成功]",
+  "time" : {
+    "start" : 1635420822589,
+    "stop" : 1635420822642,
+    "duration" : 53
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "e62e2939d252f48c",
+  "name" : "test_login01[验证码为空]",
+  "time" : {
+    "start" : 1635420822734,
+    "stop" : 1635420822767,
+    "duration" : 33
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
